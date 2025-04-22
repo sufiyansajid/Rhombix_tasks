@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #547792;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 500px;
+    background: #94B4C1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ECEFCA;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background: #007bff;
+    color: #ECEFCA;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #ECEFCA;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li input[type="text"] {
+    border: none;
+    background: transparent;
+    width: 100%;
+  }
+  
+  .task-buttons button {
+    margin-left: 10px;
+    background: #dc3545;
+  }
+  
+  .task-buttons .edit-btn {
+    background: #28a745;
+  }
+  
